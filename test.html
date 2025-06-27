@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>React Child to Parent Input</title>
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <script crossorigin src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+</head>
+<body>
+  <div id="root"></div>
+
+  <script type="text/babel">
+    const { useState } = React;
+
+    // Child Component
+    function Child({ onInputChange }) {
+      return (
+        <div>
+          <h2>Child Component</h2>
+          <input
+            type="text"
+            onChange={(e) => onInputChange(e.target.value)}
+            placeholder="Type here..."
+          />
+        </div>
+      );
+    }
+
+    // Parent Component
+    function Parent() {
+      const [inputValue, setInputValue] = useState('');
+
+      const handleInputChange = (value) => {
+        setInputValue(value);
+      };
+
+      return (
+        <div>
+          <h1>Parent Component</h1>
+          <p>Parent Live Input from Child: {inputValue}</p>
+          <Child onInputChange={handleInputChange} />
+        </div>
+      );
+    }
+
+    // Render to DOM
+    const root = ReactDOM.createRoot(document.getElementById('root'));
+    root.render(<Parent />);
+  </script>
+</body>
+</html>
