@@ -88,6 +88,27 @@ https://bansal-wire-industries.vercel.app
 # Author
 
 Dhaneswari Behera
+---
+
+## 3. LeetMetric Project
+
+A frontend web application built using HTML, CSS, and JavaScript to display coding progress metrics with a responsive UI.
+
+### Live Demo
+
+https://dhaniu47.github.io/leetmetric-project/
+
+https://my-first-project-nu-seven.vercel.app
+
+### Project Folder
+
+leetmetric-project/
+
+### Screenshot
+
+<img width="1920" height="1020" alt="Screenshot 2026-05-27 154402" src="https://github.com/user-attachments/assets/7c20cc0f-e8f4-43e5-8a82-62120c0c9d7a" />
+
+---
 
 ## GitHub
 https://github.com/dhaniu47
