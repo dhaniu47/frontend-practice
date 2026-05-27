@@ -1,3 +1,31 @@
+# HTML Resume Project
+<img width="963" height="1024" alt="Screenshot 2026-05-27 152020" src="https://github.com/user-attachments/assets/e7f7a539-bb21-4bbe-b53b-362296a84f5d" />
+
+
+A responsive personal resume website developed using HTML and CSS.
+
+## Features
+
+- Responsive Resume Layout
+- Personal Portfolio Design
+- Skills Section
+- Education Details
+- Contact Information
+- Clean UI Design
+
+## Technologies Used
+
+- HTML
+- CSS
+
+## Author
+
+Dhaneswari Behera
+
+## GitHub
+
+https://github.com/dhaniu47
+
 # Frontend Practice Repository
 ![Frontend Practice](https://github.com/dhaniu47/frontend-practice/blob/master/Screenshot%202026-05-27%20144137.png?raw=true)
 This repository contains my frontend development practice projects, UI experiments, and mini applications created while learning and improving my web development skills.
