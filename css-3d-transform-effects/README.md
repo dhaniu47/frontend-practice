@@ -6,10 +6,6 @@ https://css-3d-transform-effects.vercel.app
 
 A frontend practice project demonstrating CSS 3D transformations and hover animations using pure HTML and CSS.
 
-![CSS 3D Transform Preview](https://github.com/user-attachments/assets/7c20cc0f-e8f4-43e5-8a82-62120c0c9d7a)
-
----
-
 ## Features
 
 - RotateX Animation
