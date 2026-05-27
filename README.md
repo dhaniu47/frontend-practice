@@ -1,5 +1,5 @@
 # Frontend Practice Repository
-![Frontend Practice](https://github.com/user-attachments/assets)
+![Frontend Practice](https://github.com/user-attachments/assets/Screenshot 2026-05-27 144137.png)
 
 This repository contains my frontend development practice projects, UI experiments, and mini applications created while learning and improving my web development skills.
 
